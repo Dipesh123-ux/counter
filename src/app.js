@@ -5,7 +5,7 @@ import "./timer.css";
 const App = ()=>  {
 
 
-  const [timeLeft,setTimeLeft] = useState(25*60);
+  const [timeLeft,setTimeLeft] = useState(0);
 
 
   let intervalRef = useRef(null);
